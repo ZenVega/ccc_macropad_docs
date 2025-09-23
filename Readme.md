@@ -3,7 +3,7 @@
 ## Installation
 
 ### QMK Cli
-
+This is just a quick recap. When you get stuck, check the official qmk documentation [here](https://docs.qmk.fm/newbs_getting_started)
 In order to get QMK installed on your system run
 'python3 -m pip install qmk'
 Test if installation was successfull:
@@ -23,10 +23,17 @@ follow the instructions. when it comes to the board, choose,
 ->non of the above layouts
 ->15. promicro_rp2040
 
-your new keyboard's setup should now be created in ~/qmk_firmware/keyboards/<your_keyboards_name_folder>
+your new keyboard's setup should now be created in 
+~/qmk_firmware/keyboards/<your_keyboards_name_folder>
 ![image](images/qmk_keyboard_files.png)
 
-when it prompts you: 
-MCU = RP2040 #or whatever you are using
-bootloader = rp2040 
-VIA_ENABLE=yes
+in you keyboard.json:
+add:
+'"via": true' to the features
+
+the keyboard.yaml holds the actual layout of the keyboard as well as some more metadata.
+keymaps can hold different configurations for this layout.
+after configuring your keymap to your liking, you can always try to compile and see if you keymap.c and you kayboard.yaml align:
+`qmk compile -kb <keyboard> -km <keymap>`
+if not defined differently you keymap is just 'default'
+
