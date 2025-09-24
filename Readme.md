@@ -16,27 +16,36 @@ submit prompts with 'y'
 You should now have QMK setup in '~/qmk_firmware'.
 
 ### Create new layout
-`cd ~/qmk_firmware/keyboards
-qmk new-keyboard`
+```bash
+cd ~/qmk_firmware/keyboards
+qmk new-keyboard
+```
 
-follow the instructions. when it comes to the board, choose, 
+follow the instructions. when it comes to the board, choose: 
+
 ->non of the above layouts
+
 ->15. promicro_rp2040
 
-your new keyboard's setup should now be created in 
+your new keyboard's setup should now be created in: 
+
+```bash
 ~/qmk_firmware/keyboards/<your_keyboards_name_folder>
+```
 
 ![image](images/qmk_keyboard_files.png)
 
 in you keyboard.json:
-add:
-'"via": true' to the features
+add: `"via": true` to the features
 
-the keyboard.yaml holds the actual layout of the keyboard as well as some more metadata.
-keymaps can hold different configurations for this layout.
-after configuring your keymap to your liking, you can always try to compile and see if you keymap.c and you kayboard.yaml align:
+The 'keyboard.yaml' holds the actual layout of the keyboard as well as some more metadata.
+You may have multiple keymaps holding different configurations for this layout.
+After configuring your keymap to your liking, you can always try to compile and see if you keymap.c and you kayboard.yaml align:
 
-`qmk compile -kb <keyboard> -km <keymap>`
+```bash
+qmk compile -kb <keyboard> -km <keymap>
+```
+
 if not defined differently you keymap is just 'default'
 
 ### Flashing your MCU
@@ -44,4 +53,6 @@ Once you are ready to flash qmk to your microcontroller (rp2040 in this case), p
 In our case that requires pressing the boot button while plugging it in. The device should show up as a flashable media in your files-explorer.
 run:
 
-`qmk flash -kb <keyboard> -km <keymap>`
+```bash
+qmk flash -kb <keyboard> -km <keymap>
+```
