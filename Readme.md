@@ -60,7 +60,7 @@ You may have multiple keymaps holding different configurations for this layout.
 After configuring your keymap to your liking, you can always try to compile and see if you keymap.c and you kayboard.yaml align:
 
 ### Flash macropad {# flash_build}
-However if you want to work with the layout we provide clone this [repo] (https://github.com/ZenVega/qmk_for_macropad) containing the firmware and the macropad layout and keymap.
+However if you want to work with the layout we provide clone this [repo] (https://github.com/ZenVega/qmk_for_macropad/tree/main) containing the firmware and the macropad layout and keymap.
 Or you use the cloned firmware and copy/past the all keyboard config files in the equivalent folder.
 To install all missing dependencies run:
 
