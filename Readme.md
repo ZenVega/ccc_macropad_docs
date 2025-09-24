@@ -36,7 +36,19 @@ your new keyboard's setup should now be created in:
 ![image](images/qmk_keyboard_files.png)
 
 in you keyboard.json:
-add: `"via": true` to the features
+add: 
+```yaml
+"via": true
+``` 
+to the features
+
+add: 
+```yaml
+  "analog": {
+    "pins": ["GP26"]
+  },
+```
+This adds the potential use of variable resistors connected to pin26.
 
 The 'keyboard.yaml' holds the actual layout of the keyboard as well as some more metadata.
 You may have multiple keymaps holding different configurations for this layout.
