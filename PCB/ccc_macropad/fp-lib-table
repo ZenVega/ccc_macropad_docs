@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "XIAO Keycad")(type "KiCad")(uri "/home/zenvega/Downloads/Seeeduino-XIAO-KICAD/Seeeduino XIAO KICAD")(options "")(descr ""))
+)
