@@ -25,6 +25,7 @@ follow the instructions. when it comes to the board, choose,
 
 your new keyboard's setup should now be created in 
 ~/qmk_firmware/keyboards/<your_keyboards_name_folder>
+
 ![image](images/qmk_keyboard_files.png)
 
 in you keyboard.json:
@@ -34,10 +35,13 @@ add:
 the keyboard.yaml holds the actual layout of the keyboard as well as some more metadata.
 keymaps can hold different configurations for this layout.
 after configuring your keymap to your liking, you can always try to compile and see if you keymap.c and you kayboard.yaml align:
+
 `qmk compile -kb <keyboard> -km <keymap>`
 if not defined differently you keymap is just 'default'
 
 ### Flashing your MCU
-once you are ready to flash qmk to your microcontroller (rp2040 in this case), plug it in and set it into bootloader mode.
+Once you are ready to flash qmk to your microcontroller (rp2040 in this case), plug it in and set it into bootloader mode.
 In our case that requires pressing the boot button while plugging it in. The device should show up as a flashable media in your files-explorer.
+run:
 
+`qmk flash -kb <keyboard> -km <keymap>`
