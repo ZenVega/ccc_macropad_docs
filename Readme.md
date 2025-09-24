@@ -37,3 +37,7 @@ after configuring your keymap to your liking, you can always try to compile and 
 `qmk compile -kb <keyboard> -km <keymap>`
 if not defined differently you keymap is just 'default'
 
+### Flashing your MCU
+once you are ready to flash qmk to your microcontroller (rp2040 in this case), plug it in and set it into bootloader mode.
+In our case that requires pressing the boot button while plugging it in. The device should show up as a flashable media in your files-explorer.
+
