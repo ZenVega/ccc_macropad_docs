@@ -8,12 +8,17 @@ In order to get QMK installed on your system run
 'python3 -m pip install qmk'
 Test if installation was successfull:
 'qmk --version'
-If everything works run:
+
+If you want to start from scratch follow the upcoming instructions. In case you just want to flash your macropad jump [here](#flash_build).
+
+### QMK Setup
+
 'qmk setup'
 this will install the qmk firmware
 submit prompts with 'y'
 
 You should now have QMK setup in '~/qmk_firmware'.
+
 
 ### Create new layout
 ```bash
@@ -54,9 +59,27 @@ The 'keyboard.yaml' holds the actual layout of the keyboard as well as some more
 You may have multiple keymaps holding different configurations for this layout.
 After configuring your keymap to your liking, you can always try to compile and see if you keymap.c and you kayboard.yaml align:
 
+### Flash macropad {# flash_build}
+However if you want to work with the layout we provide clone this [repo] (https://github.com/ZenVega/qmk_for_macropad) containing the firmware and the macropad layout and keymap.
+Or you use the cloned firmware and copy/past the all keyboard config files in the equivalent folder.
+To install all missing dependencies run:
+
+```bash
+git submodule update --init --recursive
+
+git submodule sync --recursive
+git submodule update --init --recursive --force
+```
+
+
+### Compiling
+This will create a *.bin that holds the firmware including your compilation ready to be flashed on the MCU
+
 ```bash
 qmk compile -kb <keyboard> -km <keymap>
 ```
+you should find a '<your_keyboard>
+
 
 if not defined differently you keymap is just 'default'
 
