@@ -1,0 +1,9 @@
+Reference	Qty	Value	DNP	Exclude from BOM	Exclude from Board	Footprint	Datasheet
+D1,D2,D3,D7	4	1N4148WT				Diode_SMD:D_SOD-523	https://www.diodes.com/assets/Datasheets/ds30396.pdf
+D6,D8,D9	3	LED				LED_THT:LED_D3.0mm	~
+R1,R2,R3	3	100R				Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	~
+R4	1	10k				Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	~
+RV1	1	Analogue_input_slider 10k				Potentiometer_THT:Potentiometer_Bourns_PTA4543_Single_Slide	~
+SW1,SW2,SW4,SW5	4	SW_Push				Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB	~
+SW3	1	OS/Left_Right-hand_Switch				Button_Switch_SMD:Nidec_Copal_CAS-120A	https://www.nidec-components.com/e/catalog/switch/cas.pdf
+U1	1	XIAO-RP2040-DIP				XIAO Seeduino:XIAO-RP2040-DIP	
