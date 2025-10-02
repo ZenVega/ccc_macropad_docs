@@ -2560,7 +2560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Key_Switches:Kailh_socket_MX_PG1350_optional"
 			(at 161.29 107.95 0)
 			(effects
 				(font
@@ -2628,7 +2628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Key_Switches:Kailh_socket_MX_PG1350_optional"
 			(at 194.31 100.33 0)
 			(effects
 				(font
@@ -3180,7 +3180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Key_Switches:Kailh_socket_MX_PG1350_optional"
 			(at 194.31 114.3 0)
 			(effects
 				(font
@@ -3896,7 +3896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Key_Switches:Kailh_socket_MX_PG1350_optional"
 			(at 161.29 121.92 0)
 			(effects
 				(font
