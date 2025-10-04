@@ -2414,7 +2414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 167.386 81.026 90)
 			(effects
 				(font
@@ -2603,6 +2603,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Seeed XIAO:XIAO-RP2040-DIP")
+		(at 118.11 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2629087b-861e-4f67-8ee5-a0f74b110e55")
+		(property "Reference" "U2"
+			(at 132.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XIAO-RP2040-DIP"
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XIAO Seeduino:XIAO-RP2040-DIP"
+			(at 132.588 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "3594ab4e-3ef5-45f3-a2c0-ff0453b86b66")
+		)
+		(pin "7"
+			(uuid "768f53c9-117a-4d65-b50e-c6aff956868f")
+		)
+		(pin "9"
+			(uuid "6f928588-b164-4b65-8e6b-67bb997d9d30")
+		)
+		(pin "10"
+			(uuid "c9e94758-c2aa-462c-b75c-d0a53e67327a")
+		)
+		(pin "12"
+			(uuid "f52c91dd-a73f-4d53-9cad-1a64972731c3")
+		)
+		(pin "8"
+			(uuid "0201f9c0-e424-46ae-9b6c-00c2b97f84f1")
+		)
+		(pin "6"
+			(uuid "f12830ad-da5b-4e10-ae31-bfbb3e27976e")
+		)
+		(pin "5"
+			(uuid "43366224-ab27-4af8-a3b0-6dcaa9db5c57")
+		)
+		(pin "3"
+			(uuid "5e08b70f-802a-47ce-a916-f456f5a1df84")
+		)
+		(pin "2"
+			(uuid "cfafa2cd-4bd8-461b-b6c3-f5dbe0e9ae0a")
+		)
+		(pin "1"
+			(uuid "50de8e9e-591b-4c81-ba8f-fb90482c657a")
+		)
+		(pin "13"
+			(uuid "a343fca6-a462-4342-868b-407c469fe893")
+		)
+		(pin "14"
+			(uuid "2bd56df8-198f-467f-9ebf-3d8074e43f67")
+		)
+		(pin "4"
+			(uuid "2cb60dd6-0106-46b4-9d35-2d77d944256a")
+		)
+		(instances
+			(project ""
+				(path "/30b7c58f-86a9-47fb-ba55-c2e4c0b4123f"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 194.31 105.41 0)
 		(unit 1)
@@ -2696,7 +2799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Key_Switches:D_DO-35_SOD27_P5.08mm_Horizontal"
 			(at 172.72 122.555 0)
 			(effects
 				(font
@@ -2782,7 +2885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Key_Switches:D_DO-35_SOD27_P5.08mm_Horizontal"
 			(at 172.72 108.585 0)
 			(effects
 				(font
@@ -2870,7 +2973,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 100.584 114.046 90)
 			(effects
 				(font
@@ -2979,109 +3082,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Seeed XIAO:XIAO-RP2040-DIP")
-		(at 118.11 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a9397dc-36f0-4ab6-821b-8f3a201e131a")
-		(property "Reference" "U1"
-			(at 132.842 116.332 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XIAO-RP2040-DIP"
-			(at 132.588 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XIAO Seeduino:XIAO-RP2040-DIP"
-			(at 132.588 112.268 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0fdb80d0-9637-40f2-aa5b-39db3d9b4b91")
-		)
-		(pin "3"
-			(uuid "ba5f0cbe-4e9c-47e5-9a09-9bd9f5829130")
-		)
-		(pin "4"
-			(uuid "11acc132-f20f-4fc4-80f7-140061bcdb20")
-		)
-		(pin "14"
-			(uuid "405259d4-92a7-4926-a6d4-e4ecce874954")
-		)
-		(pin "13"
-			(uuid "74bf7dd5-dd18-4445-a2b5-ebbe7c2b5fa1")
-		)
-		(pin "5"
-			(uuid "52f7ed31-c83f-451e-b727-1afc57936343")
-		)
-		(pin "6"
-			(uuid "bfd8a04a-a061-4cc2-9e46-9ed74ae476e3")
-		)
-		(pin "7"
-			(uuid "8649f026-68a6-4d9d-aefc-b77656e37fdd")
-		)
-		(pin "10"
-			(uuid "3bcaeafa-0933-4d7d-8ccd-48bfeaf45c06")
-		)
-		(pin "11"
-			(uuid "9b3dae81-db0b-45c7-b974-839fc02745b8")
-		)
-		(pin "12"
-			(uuid "c98385af-2266-4b28-a8d4-00609580ab76")
-		)
-		(pin "9"
-			(uuid "ab1848ec-f876-4f89-8190-589a2d4dd0f2")
-		)
-		(pin "2"
-			(uuid "f93d33fa-ac23-491a-9e16-704c0448f85a")
-		)
-		(pin "8"
-			(uuid "62a77143-33a9-41a0-acac-fa8c2c1b5f8f")
-		)
-		(instances
-			(project ""
-				(path "/30b7c58f-86a9-47fb-ba55-c2e4c0b4123f"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer_US")
 		(at 128.27 64.77 180)
 		(unit 1)
@@ -3109,7 +3109,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA4543_Single_Slide"
+		(property "Footprint" "CustomFootprints:Potentiometer_slide_75mm_range_60mm_2_sets"
 			(at 128.27 64.77 0)
 			(effects
 				(font
@@ -3472,7 +3472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" "CustomFootprints:SPDT_3pin_2_pos_1P2T_tht_2.54mm_switch_sk12d07"
 			(at 185.42 72.39 0)
 			(effects
 				(font
@@ -3609,7 +3609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Key_Switches:D_DO-35_SOD27_P5.08mm_Horizontal"
 			(at 205.74 114.935 0)
 			(effects
 				(font
@@ -3828,7 +3828,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 89.154 114.046 90)
 			(effects
 				(font
@@ -3964,7 +3964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Key_Switches:D_DO-35_SOD27_P5.08mm_Horizontal"
 			(at 205.74 100.965 0)
 			(effects
 				(font
@@ -4052,7 +4052,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 77.724 114.046 90)
 			(effects
 				(font

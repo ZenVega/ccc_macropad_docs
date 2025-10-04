@@ -1,4 +1,4 @@
-3345956131511
+77217148629369
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59324,6 +59324,13 @@ ceramic
 0
 3
 3
+CustomFootprints
+Potentiometer_slide_75mm_range_60mm_2_sets
+
+
+0
+6
+6
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -69299,6 +69306,160 @@ solder jumper open
 0
 3
 3
+Key_Switches
+AVR_ICSP_3x2
+Double rangee de contacts 2 x 4 pins
+CONN
+0
+6
+6
+Key_Switches
+CP_Radial_D4.0mm_P1.50mm
+CP, Radial series, Radial, pin pitch=1.50mm, , diameter=4mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 1.50mm  diameter 4mm Electrolytic Capacitor
+0
+2
+2
+Key_Switches
+CUI_SJ-43514
+
+
+0
+4
+4
+Key_Switches
+C_Disc_D3.0mm_W1.6mm_P2.50mm
+C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
+C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor
+0
+2
+2
+Key_Switches
+C_Disc_D4.3mm_W1.9mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor
+0
+2
+2
+Key_Switches
+Crystal_HC49-4H_Vertical
+Crystal THT HC-49-4H http://5hertz.com/pdfs/04404_D.pdf
+THT crystalHC-49-4H
+0
+2
+2
+Key_Switches
+DIP-28_W7.62mm_Socket
+28-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket
+0
+28
+28
+Key_Switches
+D_DO-35_SOD27_P5.08mm_Horizontal
+Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm
+0
+2
+2
+Key_Switches
+Kailh_socket_MX_PG1350_EC11_optional
+MX-style keyswitch with support for optional Kailh socket
+MX,cherry,gateron,kailh,pg1511,socket
+0
+11
+5
+Key_Switches
+Kailh_socket_MX_PG1350_optional
+MX-style keyswitch with support for optional Kailh socket
+MX,cherry,gateron,kailh,pg1511,socket
+0
+6
+2
+Key_Switches
+Kailh_socket_MX_optional
+MX-style keyswitch with support for optional Kailh socket
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+Key_Switches
+Kailh_socket_MX_optional_EC11E
+MX-style keyswitch with support for optional Kailh socket
+MX,cherry,gateron,kailh,pg1511,socket
+0
+9
+5
+Key_Switches
+LED_D3.0mm
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
+0
+2
+2
+Key_Switches
+MountingHole_2.2mm_M2_Pad
+Mounting Hole 2.2mm, M2
+mounting hole 2.2mm m2
+0
+1
+1
+Key_Switches
+OLED_1side
+Connecteur 6 pins
+CONN DEV
+0
+4
+4
+Key_Switches
+R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm
+0
+2
+2
+Key_Switches
+RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+6
+Key_Switches
+SW_PUSH_6mm
+https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
+0
+4
+2
+Key_Switches
+Tenting_Puck
+
+
+0
+5
+1
+Key_Switches
+USB_C_GCT_USB4085
+
+
+0
+20
+17
+Key_Switches
+polyfuse_5.1mm
+
+
+0
+2
+2
+Key_Switches
+torn_qr_code
+
+
+0
+0
+0
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -106266,3 +106427,136 @@ Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM
 0
 20
 20
+XIAO Seeduino
+XIAO-Add-On
+
+
+0
+56
+14
+XIAO Seeduino
+XIAO-ESP32C3-DIP
+
+
+0
+28
+14
+XIAO Seeduino
+XIAO-ESP32C3-SMD
+
+
+0
+22
+22
+XIAO Seeduino
+XIAO-ESP32C6-DIP
+
+
+0
+28
+14
+XIAO Seeduino
+XIAO-ESP32C6-SMD
+
+
+0
+24
+24
+XIAO Seeduino
+XIAO-ESP32S3-DIP
+
+
+0
+28
+14
+XIAO Seeduino
+XIAO-ESP32S3-SMD
+
+
+0
+24
+24
+XIAO Seeduino
+XIAO-MG24-DIP
+
+
+0
+58
+24
+XIAO Seeduino
+XIAO-MG24-SMD
+
+
+0
+32
+32
+XIAO Seeduino
+XIAO-RA4M1-DIP
+
+
+0
+58
+24
+XIAO Seeduino
+XIAO-RA4M1-SMD
+
+
+0
+30
+30
+XIAO Seeduino
+XIAO-RP2040-DIP
+
+
+0
+28
+14
+XIAO Seeduino
+XIAO-RP2040-SMD
+
+
+0
+20
+20
+XIAO Seeduino
+XIAO-RP2350-DIP
+
+
+0
+58
+24
+XIAO Seeduino
+XIAO-RP2350-SMD
+
+
+0
+30
+30
+XIAO Seeduino
+XIAO-SAMD21-DIP
+
+
+0
+28
+14
+XIAO Seeduino
+XIAO-SAMD21-SMD
+
+
+0
+20
+20
+XIAO Seeduino
+XIAO-nRF52840-DIP
+
+
+0
+28
+14
+XIAO Seeduino
+XIAO-nRF52840-SMD
+
+
+0
+22
+22
