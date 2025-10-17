@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.4-1.fc42app3"
     },
-    "CreationDate": "2025-10-16T16:53:33+02:00"
+    "CreationDate": "2025-10-17T06:38:32+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "ccc_macropad-Front.gbr",
+      "Path": "ccc_macropad-Front.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ccc_macropad-Back.gbr",
+      "Path": "ccc_macropad-Back.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ccc_macropad-F_Paste.gbr",
+      "Path": "ccc_macropad-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ccc_macropad-B_Paste.gbr",
+      "Path": "ccc_macropad-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ccc_macropad-F_Silkscreen.gbr",
+      "Path": "ccc_macropad-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ccc_macropad-B_Silkscreen.gbr",
+      "Path": "ccc_macropad-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ccc_macropad-F_Mask.gbr",
+      "Path": "ccc_macropad-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "ccc_macropad-B_Mask.gbr",
+      "Path": "ccc_macropad-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "ccc_macropad-Edge_Cuts.gbr",
+      "Path": "ccc_macropad-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
