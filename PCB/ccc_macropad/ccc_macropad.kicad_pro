@@ -512,7 +512,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerbers/",
+      "plot": "../../../ccc_macropad_art/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
